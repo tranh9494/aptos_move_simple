@@ -1,0 +1,16 @@
+[package]
+name = 'myCustomNFT'
+version = '1.0.0'
+
+[addresses]
+myAddress="0xa15df539146020a9ae571b504c86ce5bf0db8b85348cffa1bdad83ee1430d0c3"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = '1cdfc2b'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'devnet'
+subdir = 'aptos-move/framework/aptos-token'
